@@ -1,0 +1,124 @@
+{
+    "posts": [
+        {
+            "id": "99f8add4-7684-4c16-a316-616271db199e",
+            "title": "Morning routine of highly effective people",
+            "slug": "morning-routine-of-highly-effective-people",
+            "excerpt": "Next.js is also a good choice for those who care about performance and SEO.",
+            "content": "Next.js is also a good choice for those who care about performance and SEO.",
+            "coverImageUrl": "/images/bryen_8.png",
+            "published": true,
+            "createdAt": "2025-04-08T00:24:38.616Z",
+            "updatedAt": "2025-04-08T00:33:56.907Z",
+            "author": "Isabela Nunes"
+        },
+        {
+            "id": "afa086e4-53e4-492d-acf2-7c2966d83fcd",
+            "title": "Tips to keep your mental health in check",
+            "slug": "tips-to-keep-your-mental-health-in-check",
+            "excerpt": "Instead of setting everything up manually, just create a file with the right name and Next.js understands that it represents a page.",
+            "content": "Instead of setting everything up manually, just create a file with the right name and Next.js understands that it represents a page.",
+            "coverImageUrl": "/images/bryen_6.png",
+            "published": true,
+            "createdAt": "2025-04-07T00:24:38.616Z",
+            "updatedAt": "2025-04-07T00:33:56.907Z",
+            "author": "Marina Duarte"
+        },
+        {
+            "id": "1b6a5f57-8a19-4933-91f4-1af678464ded",
+            "title": "How writing can change your career",
+            "slug": "how-writing-can-change-your-career",
+            "excerpt": "Many companies and individual developers choose Next.js precisely because it combines simplicity with advanced features.",
+            "content": "Many companies and individual developers choose Next.js precisely because it combines simplicity with advanced features.",
+            "coverImageUrl": "/images/bryen_9.png",
+            "published": true,
+            "createdAt": "2025-04-06T00:24:38.616Z",
+            "updatedAt": "2025-04-06T00:33:56.907Z",
+            "author": "Pedro Martins"
+        },
+        {
+            "id": "9eb8b7ac-2b48-4835-880a-a1c798e1a595",
+            "slug": "this-will-create-the-dillinger-image-and-pull-in-the-necessary-dependencies.-atbvp6",
+            "title": "This will create the dillinger image and pull in the necessary dependencies.",
+            "author": "Luiz Otávio",
+            "content": "**Disclaimer:** this API may change a lot since it is still under development. Feel free to help me to create the best boilerplate possible. My goal is to put at least an authentication system. CRUD operations for users, token and refresh tokens.\r\n\r\n# Clean Architecture API with TypeScript\r\n\r\nThis is my attempt to create an API with [node.js](https://nodejs.org/en/) and [typescript](https://www.typescriptlang.org/) following the principles of [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)...",
+            "excerpt": "Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,",
+            "coverImageUrl": "/images/bryen_3.png",
+            "published": true,
+            "createdAt": "2025-04-05T00:24:38.616Z",
+            "updatedAt": "2025-04-05T00:33:56.907Z"
+        },
+        {
+            "id": "6b204dab-2312-4525-820a-a0463560835f",
+            "title": "How technology impacts our well-being",
+            "slug": "how-technology-impacts-our-well-being",
+            "excerpt": "It also helps better organize files and components, which makes project maintenance easier in the long run.",
+            "content": "It also helps better organize files and components, which makes project maintenance easier in the long run.",
+            "coverImageUrl": "/images/bryen_5.png",
+            "published": false,
+            "createdAt": "2025-03-30T07:11:33",
+            "updatedAt": "2025-04-05T00:14:03.175Z",
+            "author": "Lucas Lima"
+        },
+        {
+            "id": "76396dd3-9581-43b5-856d-fe1a78714e8c",
+            "title": "The challenges of modern remote work",
+            "slug": "the-challenges-of-modern-remote-work",
+            "excerpt": "It emerged as a solution to simplify common tasks that developers face when creating websites and applications.",
+            "content": "It emerged as a solution to simplify common tasks that developers face when creating websites and applications.",
+            "coverImageUrl": "/images/bryen_1.png",
+            "published": true,
+            "createdAt": "2025-03-08T13:13:13",
+            "updatedAt": "2025-03-08T13:13:13",
+            "author": "João Silva"
+        },
+        {
+            "id": "bf5c7dae-06a4-4155-9c01-a56e02956496",
+            "title": "How to stay focused in the digital world",
+            "slug": "how-to-stay-focused-in-the-digital-world",
+            "excerpt": "Next.js is a development framework designed to make building modern web applications with React easier.",
+            "content": "Next.js is a development framework designed to make building modern web applications with React easier.",
+            "coverImageUrl": "/images/bryen_0.png",
+            "published": true,
+            "createdAt": "2025-02-22T04:32:54",
+            "updatedAt": "2025-02-22T04:32:54",
+            "author": "Ana Costa"
+        },
+        {
+            "id": "bc9a540f-66a9-4ab0-8d50-6216ab1cac53",
+            "title": "The role of silence in a creative life",
+            "slug": "the-role-of-silence-in-a-creative-life",
+            "excerpt": "This makes the workflow more natural, especially for those already used to folder and file structures.",
+            "content": "This makes the workflow more natural, especially for those already used to folder and file structures.",
+            "coverImageUrl": "/images/bryen_7.png",
+            "published": true,
+            "createdAt": "2025-02-11T20:59:30",
+            "updatedAt": "2025-02-11T20:59:30",
+            "author": "Thiago Ribeiro"
+        },
+        {
+            "id": "3993fcf7-2490-48ed-be2e-58c2030ee764",
+            "title": "Personal organization: where to start",
+            "slug": "personal-organization-where-to-start",
+            "excerpt": "For example, it can split the code into smaller parts so that the browser only loads what’s necessary.",
+            "content": "For example, it can split the code into smaller parts so that the browser only loads what’s necessary.",
+            "coverImageUrl": "/images/bryen_4.png",
+            "published": true,
+            "createdAt": "2025-01-15T04:54:26",
+            "updatedAt": "2025-01-15T00:54:26",
+            "author": "Bianca Rocha"
+        },
+        {
+            "id": "be3f14a1-0105-4e2e-bfc9-133a05e7bda6",
+            "title": "10 habits to increase your productivity",
+            "slug": "10-habits-to-increase-your-productivity",
+            "excerpt": "Next.js already comes with several built-in decisions, allowing you to start developing more quickly.",
+            "content": "Next.js already comes with several built-in decisions, allowing you to start developing more quickly.",
+            "coverImageUrl": "/images/bryen_2.png",
+            "published": false,
+            "createdAt": "2025-01-07T22:54:10",
+            "updatedAt": "2025-01-07T22:54:10",
+            "author": "Carla Mendes"
+        }
+    ]
+}
