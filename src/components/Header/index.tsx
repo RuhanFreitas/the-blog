@@ -1,3 +1,3 @@
 export function Header() {
-    return <h1>Hello, World!</h1>;
+    return <h1 className="text-white">Hello, World!</h1>;
 }
