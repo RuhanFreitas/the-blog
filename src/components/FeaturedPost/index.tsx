@@ -1,5 +1,5 @@
 import { PostCover } from '../PostCover';
-import { PostHeading } from '../PostHeading';
+import { PostSummary } from '../PostSummary';
 
 export function FeaturedPost() {
     const slug = '';
@@ -20,21 +20,13 @@ export function FeaturedPost() {
                 }}
             />
 
-            <div className="flex flex-col sm:justify-center">
-                <time className="text-slate-600 block text-sm/tight" dateTime="2025-04-20">
-                    2025/04/20 10:00am
-                </time>
-
-                <PostHeading as="h1" url={postLink}>
-                    Featured Post Title
-                </PostHeading>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quod, nostrum
-                    perferendis quisquam molestiae quo itaque. Est, doloribus itaque saepe quas
-                    pariatur tempore odit neque assumenda et ipsam, ut repellat.
-                </p>
-            </div>
+            <PostSummary
+                postHeading="h1"
+                postLink={postLink}
+                createdAt={'2025-04-08T00:24:38.616Z'}
+                excerpt="Blablabla"
+                title="Blablabla"
+            />
         </section>
     );
 }

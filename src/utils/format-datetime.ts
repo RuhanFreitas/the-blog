@@ -1,4 +1,4 @@
-import { add, format, formatDistanceToNow } from 'date-fns';
+import { add, format, formatDistanceToNow as formatDistanceToNowFNS } from 'date-fns';
 import { enUS } from 'date-fns/locale';
 
 export function formatDateTime(rawDate: string): string {
@@ -7,8 +7,8 @@ export function formatDateTime(rawDate: string): string {
     return format(date, 'yyyy-MM-dd HH:mm', { locale: enUS });
 }
 
-export function formatRelativeDate(rawDate: string): string {
+export function formatDistanceToNow(rawDate: string): string {
     const date = new Date(rawDate);
 
-    return formatDistanceToNow(date, { locale: enUS, addSuffix: true });
+    return formatDistanceToNowFNS(date, { locale: enUS, addSuffix: true });
 }
