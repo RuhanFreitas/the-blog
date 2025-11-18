@@ -1,7 +1,12 @@
+import { postRepository } from '@/src/repositories/post';
 import { PostCover } from '../PostCover';
 import { PostSummary } from '../PostSummary';
+import { findAllPublicPosts } from '@/src/lib/post/queries';
 
-export function FeaturedPost() {
+export async function FeaturedPost() {
+    const posts = await findAllPublicPosts();
+    const post = posts[0];
+
     const slug = '';
     const postLink = `/post/${slug}`;
 
@@ -14,8 +19,8 @@ export function FeaturedPost() {
                 imageProps={{
                     width: 1200,
                     height: 720,
-                    src: '/images/bryen_9.png',
-                    alt: 'image alt',
+                    src: post.coverImageUrl,
+                    alt: post.title,
                     priority: true,
                 }}
             />
@@ -23,9 +28,9 @@ export function FeaturedPost() {
             <PostSummary
                 postHeading="h1"
                 postLink={postLink}
-                createdAt={'2025-04-08T00:24:38.616Z'}
-                excerpt="Blablabla"
-                title="Blablabla"
+                createdAt={post.createdAt}
+                excerpt={post.excerpt}
+                title={post.title}
             />
         </section>
     );
