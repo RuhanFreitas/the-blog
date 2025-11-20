@@ -2,6 +2,7 @@ import { PostModel } from '@/src/models/post/post-model';
 import { PostRepository } from './post-repository';
 import { resolve } from 'path';
 import { readFile } from 'fs/promises';
+import { th } from 'date-fns/locale';
 
 const ROOT_DIR = process.cwd();
 const JSON_POSTS_FILE_PATH = resolve(ROOT_DIR, 'src', 'db', 'seed', 'posts.json');
@@ -30,8 +31,6 @@ export class JsonPostRepository implements PostRepository {
     }
 
     async findById(id: string): Promise<PostModel> {
-        await this.simulateWait();
-
         const posts = await this.readFromDisk();
         const post = posts.find((post) => post.id === id);
 
@@ -41,8 +40,6 @@ export class JsonPostRepository implements PostRepository {
     }
 
     async findBySlug(slug: string): Promise<PostModel> {
-        await this.simulateWait();
-
         const posts = await this.readFromDisk();
         const post = posts.find((post) => post.slug === slug);
 

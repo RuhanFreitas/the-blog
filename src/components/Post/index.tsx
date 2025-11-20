@@ -1,4 +1,7 @@
 import { findPostBySlugCached } from '@/src/lib/post/queries';
+import Image from 'next/image';
+import { PostHeading } from '../PostHeading';
+import { Date } from '../Date';
 
 type PostProps = {
     slug: string;
@@ -8,8 +11,28 @@ export async function Post({ slug }: PostProps) {
     const post = await findPostBySlugCached(slug);
 
     return (
-        <div>
-            <p>{post.slug}</p>
-        </div>
+        <article className="mb-16">
+            <header className="group flex flex-col gap-4 mb-4">
+                <Image
+                    className="rounded-xl"
+                    src={post.coverImageUrl}
+                    width={1200}
+                    height={720}
+                    alt={post.title}
+                />
+
+                <PostHeading as="h2" url={`/post/${post.slug}`}>
+                    {post.title}
+                </PostHeading>
+
+                <p>
+                    {post.author} | <Date dateTime={post.createdAt} />
+                </p>
+            </header>
+
+            <p className="text-slate-600 text-2xl">{post.excerpt}</p>
+
+            <div>{post.content}</div>
+        </article>
     );
 }
