@@ -2,6 +2,7 @@ import { findPostBySlugCached } from '@/src/lib/post/queries';
 import Image from 'next/image';
 import { PostHeading } from '../PostHeading';
 import { Date } from '../Date';
+import { Markdown } from '../Markdown';
 
 type PostProps = {
     slug: string;
@@ -32,7 +33,7 @@ export async function Post({ slug }: PostProps) {
 
             <p className="text-slate-600 text-2xl">{post.excerpt}</p>
 
-            <div>{post.content}</div>
+            <Markdown markdown={post.content} />
         </article>
     );
 }
