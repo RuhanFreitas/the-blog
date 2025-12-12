@@ -9,6 +9,8 @@ import { postsTable } from './schemas';
     try {
         await drizzleDb.delete(postsTable);
         await drizzleDb.insert(postsTable).values(posts);
+
+        console.log(`${posts.length} posts seeded successfully.`);
     } catch (error) {
         console.log('');
         console.log('Error seeding posts:', error);
